@@ -1,5 +1,7 @@
 # Sinergia - Conexión Aleatoria Inteligente
 
+VideoDemo: https://1drv.ms/v/c/2773db4810a10988/EfGmXe5PnilGsMDuW1e2MlYB97S39Lo3ITq4Yf569uo9TQ
+
 Aplicación web para conectar empleados aleatoriamente mediante IA. Los usuarios pueden buscar conexiones por afinidad o reto, y participar en chats en tiempo real.
 
 ## 🚀 Stack Tecnológico
@@ -72,7 +74,7 @@ npx supabase secrets set GEMINI_API_KEY= --project-ref afhpqphlpuelytyyfiqt
 O desde el Dashboard de Supabase:
 1. Ve a **Project Settings** → **Edge Functions**
 2. En **Secrets**, agrega:
-   - `GEMINI_API_KEY`
+   - `GEMINI_API_KEY`: ``
 
 ### 4. Ejecutar la aplicación
 
