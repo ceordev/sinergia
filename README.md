@@ -66,13 +66,13 @@ Las Edge Functions necesitan acceso a la API de Gemini. Configúrala en Supabase
 
 ```bash
 # Usando Supabase CLI (recomendado)
-npx supabase secrets set GEMINI_API_KEY=AIzaSyACrLyC7tB6bMRM1EjbSOHIzKHbLa6UGdQ --project-ref afhpqphlpuelytyyfiqt
+npx supabase secrets set GEMINI_API_KEY= --project-ref afhpqphlpuelytyyfiqt
 ```
 
 O desde el Dashboard de Supabase:
 1. Ve a **Project Settings** → **Edge Functions**
 2. En **Secrets**, agrega:
-   - `GEMINI_API_KEY`: `AIzaSyACrLyC7tB6bMRM1EjbSOHIzKHbLa6UGdQ`
+   - `GEMINI_API_KEY`: ``
 
 ### 4. Ejecutar la aplicación
 
